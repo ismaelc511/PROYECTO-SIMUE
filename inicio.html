@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ToDo App</title>
+  <link rel="icon" type="image/x-icon" href="./assets/DH_Logo_Black.png">
+  <meta name="description" content="Digital House CTD | Proyecto integrador | FRONTEND II" />
+
+  <!-- ----------------------------- estilos CSS ----------------------------- -->
+  <link rel="stylesheet" href="./css/tasksStyles.css">
+
+  <!-- ------------------- libreria de iconos Fontawesome -------------------- -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+				<!-- ------------------- fuente -------------------- -->
+				<link rel="preconnect" href="https://fonts.googleapis.com">
+				<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+				<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200&family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+
+  <!-- logica de la página -->
+  <script src="./scripts/taks.js"></script>
+
+</head>
+
+<body>
+
+  <!-- cabecera con barra de navegación -->
+  <header class="container">
+    <nav>
+					<h1><a href="./inicio.html" class="titulo2">App</a></h1>
+
+						<div class="opciones">
+							<ul class="opciones_intro">
+								<li><a href="./Productos.html" class="hover_2">Productos</a></li>
+								<li><a href="./ventas.html" class="hover_2">Ventas</a></li>
+								<li><a href="./Usuarios.html" class="hover_2">Usuarios</a></li>
+							</ul>
+						</div>
+
+      <div class="user-info">
+        <p>Username</p>
+        <div class="user-image"></div>
+        <button id="closeApp"> <i class="fa-solid fa-right-from-bracket"></i> Cerrar sesión</button>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+		<div class="animacion_contenedor">
+			<ul class="ul_contenedor">
+				<li>BIENVENIDO</li>
+				<li>A LA TIENDA</li>
+				<li>SIMUE</li>
+			</ul>
+		</div>
+
+		<div class="contendor_imagenes">
+			<ul class="contenedor_imagenes_2">
+				<li> <img src="./assets/room.jpg" alt="room" width=""> </li>
+				<li> <img src="./assets/bedroom.jpg" alt="bedroom" width=""></li>
+				<li> <img src="./assets/furniture.jpg" alt="furniture" width=""> </li>
+				<li> <img src="./assets/sala.jpg" alt="sala" width=""> </li>
+				<li> <img src="./assets/habitacion.jpg" alt="habitacion" width=""> </li>
+			</ul>
+		</div>
+  </main>
+
+
+  <footer>
+
+
+  </footer>
+
+		<script src="./scripts/animacion.js"></script>
+</body>
+
+</html>
